@@ -122,7 +122,7 @@ export function UploadCard({ onFileSelected, isAnalyzing, previewUrl }: UploadCa
               </Button>
             </label>
             
-            <p className="text-xs text-gray-500 mt-3">
+            <p className="text-xs text-gray-500">
               Máximo 10MB • PNG, JPG
             </p>
           </div>
