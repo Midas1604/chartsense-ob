@@ -137,17 +137,17 @@ export default function ChartSenseOB() {
         onStrategyChange={setStrategy}
       />
 
-      {/* Main Content - Espaçamento aumentado para afastar da navbar */}
-      <div className="pt-36 md:pt-40 pb-20 px-4">
+      {/* Main Content */}
+      <div className="pt-32 md:pt-24 pb-20 px-4">
         <div className="container mx-auto max-w-2xl">
           <div className="space-y-6">
-            {/* Botão Histórico - Responsivo para mobile e desktop */}
-            <div className="flex justify-center md:justify-end">
+            {/* Botão Histórico - Sempre visível */}
+            <div className="flex justify-end">
               <Button
                 onClick={() => setShowHistory(true)}
                 variant="outline"
                 size="sm"
-                className="bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white w-full md:w-auto"
+                className="bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white"
               >
                 <History className="w-4 h-4 mr-2" />
                 Histórico
